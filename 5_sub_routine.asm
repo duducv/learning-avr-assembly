@@ -1,2 +1,9 @@
 .ORG 0X00000000
+
+    START:
+        RCALL SUBROUTINE1
+        RJMP START
     
+
+    SUROUTINE1:
+        RET
